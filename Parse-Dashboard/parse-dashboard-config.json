@@ -1,12 +1,15 @@
+
 {
   "apps": [{
-    "serverURL": "",
-    "appId": "",
-    "masterKey": "",
-    "appName": "",
-    "iconName": "",
-    "primaryBackgroundColor": "",
-    "secondaryBackgroundColor": ""
+    "serverURL": "http://127.0.0.1:1337/parse",
+    "appId": "StagingId",
+    "masterKey": "StagingMasterKey",
+    "appName": "staging"
   }],
-  "iconsFolder": "icons"
+  "users": [
+    {
+      "user":"username",
+      "pass":"password"
+    }
+  ]
 }
